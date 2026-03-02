@@ -12,7 +12,7 @@ body{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat; 
-    height: 250px;
+    height: 390px;
     border-bottom: 1px solid white;
     align-items: center;
     
@@ -43,7 +43,7 @@ body{
     font-size: 26px;
 }
 .landing-button{
-    width: 250px;
+    width: 200px;
     height: 60px;
     color: white;
     background-color: rgb(28, 25, 235);
@@ -52,8 +52,11 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 30px;
-    margin-left: 40%;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
     
 }
 
@@ -104,6 +107,7 @@ nav li:hover{
     color: white;
     font-size: large;
     
+    
 }
 .sidebar{
     position: fixed;
@@ -129,7 +133,81 @@ nav li:hover{
 .hideMenu{
     display: none;
 }
+.landing2{
+    position: relative;
+    background-color: #ffffff;
+    width: 100%;
+    align-items: center;
+    padding-bottom: 18vh;
 
+
+
+}
+.video-advert{
+    position: absolute;
+    display: block;
+    height: 300px;
+    width: 80%;
+    top: 0px;
+    left: 50%;
+    margin-top: 150px;
+  
+    transform: translateY(-160%) translateX(-50%);
+}
+.video-text{
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: initial;
+    padding-top: 20px;
+    margin-top: 150px;
+    line-height: 30px;
+    padding: 0 25px;
+}
+.video-span{
+    color: rgb(105, 23, 199);
+}
+.advert-logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 10vh;
+}
+.microsoft img{
+    width: 115px;
+    height: 27px;
+}
+.unicef img{
+    width: 106px;
+    height: 27px;
+}
+.rapid img{
+    width: 100px;
+    height: 28px;
+
+}
+.hp img{
+    width: 39px;
+    height: 39px;
+}
+.dash img{
+    width: 97px;
+    height: 27px;
+
+}
+.postman img{
+    width: 120px;
+    height: 32px;
+
+}
+.near img{
+    width: 102px;
+    height: 27px;
+}
+.mailtrap img{
+    width: 104px;
+    height: 27px;
+}
 
 
 @media(max-width: 640px){
@@ -139,10 +217,10 @@ nav li:hover{
     .hideMenu{
         display: block;
     }
-    .landing-button{
-        margin-left: 360px;
-        
+    .advert-logo{
+        display: flex;
     }
+
 }
 @media(max-width: 1024px){
     .hideOnMobile{
@@ -151,9 +229,6 @@ nav li:hover{
      .hideMenu{
         display: block;
     }
-    .landing-button{
-        margin-left: 130px;
-        
-    }
+    
 }
     
