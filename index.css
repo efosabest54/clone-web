@@ -270,6 +270,7 @@ nav li:hover{
    align-items: center;
    justify-content: center;
    border-radius: 10px;
+   padding-left: 6px;
 
 }
 
@@ -284,6 +285,93 @@ color: rgb(102, 84, 121);
 padding-top: 20px;
 }
 
+.value-main-container{
+    background-color: rgb(247, 245, 250);
+    padding: 30px;
+}
+.value-headline{
+    font-size: 50px;
+    font-weight: bolder;
+    margin-left: auto;
+    font-family: sans-serif;
+    margin-top: -30px;
+    padding-bottom: 15px;
+}
+.value-sub{
+    color: rgb(111, 73, 161) ;
+    font-size: 20px;
+    font-family: sans-serif;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    line-height: 25px;
+}
+.second-value-holder{
+    background-color: white
+    
+}
+button{
+     background-color: rgb(74, 63, 228);
+    padding: 12px 20px;
+    border-radius: 8px;
+    color: white;
+    font-size: large;
+    border: 5px;
+    margin-bottom: 20px;
+    
+}
+.main-container{
+  background-color: rgb(230, 226, 236);
+    padding: 20px;
+    margin-top: 25px;
+    border-radius: 5px;
+    
+}
+.m-h3, .m-h5, .m-p{
+   padding-top: 10px ;
+   padding-bottom: 10px;
+}
+.m-h3{
+    font-size: larger;
+    font-family: sans-serif;
+    font-weight: 900;
+}
+.m-h5{
+    font-size: medium;
+    font-family: sans-serif;
+}
+.m-p{
+    color: rgb(22, 22, 22) ;
+    font-size: 17px;
+    font-family: sans-serif; 
+    margin-bottom: 5px;
+}
+.tick-box{
+    display: flex;
+    padding: 10px 20px;
+    
+}
+.material-symbols-outlined{
+    padding-right: 10px;
+}
+.second-value-holder h5{
+    font-size: large;
+}
+.second-value-holder p{
+    font-family: sans-serif;
+}
+.perfect-for{
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.pricing{
+     background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+}
 @media(max-width: 640px){
     .hideOnMobile{
         display: none;
